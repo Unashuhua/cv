@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+} 
+
+h1 {
+    color: #FF9292;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.625rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+}
+h2 {
+    font-size: 2.5rem;
+    color: #FFB4B4;
+    font-weight: normal;
+}
+
+h3{
+    color: #FF9292;
+}
+
+hr{
+    border: 0;
+    border-top: 10px dotted #FFE8E8;
+    width: 5%;
+    
+}
+p{
+    position: relative;
+}
+
+.top-container{
+    background-color:#FFE8E8;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 30%;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 30%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.coding-skill {
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+.fencing-skill {
+    width: 25%;
+    float: right;
+    margin-left: 10px;
+}
+
+#profile{
+    width: 300px;
+    border-radius: 300px;
+    margin-top: 80px;
+}
+
+.btn {
+    background: #FF9292;
+    background-image: -webkit-linear-gradient(top, #FF9292, #FFB4B4);
+    background-image: -moz-linear-gradient(top, #FF9292, #FFB4B4);
+    background-image: -ms-linear-gradient(top, #FF9292, #FFB4B4);
+    background-image: -o-linear-gradient(top, #FF9292, #FFB4B4);
+    background-image: linear-gradient(to bottom, #FF9292, #FFB4B4);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #FF9292);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #FF9292);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #FF9292);
+    background-image: -o-linear-gradient(top, #3cb0fd, #FF9292);
+    background-image: linear-gradient(to bottom, #3cb0fd, #FF9292);
+    text-decoration: none;
+}
+
+.bottom-container{
+    background-color: #FF9292;
+    margin: 50px 0 0 0;
+    padding: 30px;
+}
+
+.footer-link{
+    display: inline-block;
+    margin: 10px;
+    color: #FFE8E8;
+    text-decoration: none;
+
+}
+.footer-link:hover{
+    border: solid #FFB4B4;
+}
+
+.foot{
+    color: #EAF6F6;
+    font-size: 0.65rem;
+}
+
